@@ -1,0 +1,274 @@
+/*----- First_Section -----*/
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/background_pics/amg-gtr-mercedes-benz-2018-ey.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.textbox{
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+    top: 43%;
+    color: white;
+}
+
+.main_heading{
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+#first-button{
+    margin-left: 15px;
+}
+
+/*----- Second Section -----*/
+
+h2{
+    padding-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+hr{
+    background-color: blue;
+    width: 200px;
+}
+
+.flex_container{
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-around;
+}
+
+.box{
+    border: 1px solid black;
+    padding: 5px 20px;
+    width: 200px;
+}
+
+.para_2{
+    text-align: justify;
+    font-size: 15px;
+}
+
+.icon-big{
+    font-size: 36px;
+    display: block;
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*----- Third Section -----*/
+
+.grid_container{
+    display: grid;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow: hidden;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 8px;
+    background-color: black;
+}
+
+.grid_container img{
+    opacity: 0.7;
+    width: 100%;
+    transform: scale(1.05);
+    transition: transform 0.5s, opacity 0.5s;        
+}
+
+.grid_container img:hover{
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+/*----- Fourth Section-----*/
+
+.working{
+    background-color: #f4f4f4;
+}
+
+.flex_container_2{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.app_design{    
+    width: 40%;
+    padding-left: 150px;
+}
+
+.button_logo{
+    width: 15%;
+}
+
+.work_steps div{
+    border: 1px solid blue;
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    margin-right: 20px;
+    color: black;
+}
+
+.work_steps p{
+    padding: 05px;
+}
+
+.work_steps img{
+    margin-top: 10px;
+}
+
+/*----- Cities -----*/
+
+.grid_container_2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-right: -9%;  
+}
+
+.cities_1 img{
+    margin-left: 102px;
+    margin-top: 20px;
+}
+
+.cities_1 ul{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.cities_list li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.cities_1 h5{
+    margin-top: 10px;
+}
+
+.icon_big_2{
+    color:orangered;
+}
+
+.ref{
+    border-bottom-style: dotted;
+    color: red;
+    opacity: 0.8;
+}
+
+/*----- Sixth Section -----*/
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/background_pics/2014-502161-mercedes-amg-gt1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color:white;   
+}
+
+#hr1{
+    background-color: white;
+}
+
+.grid_container_3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    grid-gap: 30px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.grid_container_3 div{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 50px;
+    height: 550px;
+    
+}
+
+blockquote{
+    font-family:italic;
+}
+
+blockquote::before{
+    content: "\201C";
+    font-size: 500%;
+}
+
+cite{
+    display: block;
+}
+
+cite img{
+    border-radius: 50%;
+}
+
+.inner_1{
+    padding-top: 120px;
+}
+
+.inner_2{
+    padding-top: 170px;
+}
+
+.inner_3{
+    padding-top: 70px;
+}
+
+/*-----Seventh Section-----*/
+
+.sec7{
+    background-color: #f4f4f4;
+}
+
+/*----- Eighth Section -----*/
+
+footer{
+    background-color: #333;
+    color: white;
+    margin-bottom: 0;
+}
+
+.f_1 p{
+    margin: 0;
+}
+
+.grid_container_4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.grid_container_4 img{
+    margin-top: 20px;
+}
+
+.grid_container_4 ul{
+    list-style: none;
+    margin-top: 55px;
+    color: white;
+}
+
+.l_2 li{
+    display: inline;
+    margin-left: 10px;
+}     

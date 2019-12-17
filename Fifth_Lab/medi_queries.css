@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1200px){
+    
+}
+@media only screen and (max-width: 1023px){
+    .textbox{
+        padding: 0 4%;   
+    }
+    
+    .grid_container_2{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+.cities_1 img{
+    margin-left: 102px;
+    margin-top: 20px;
+}
+
+.cities_1 ul{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.cities_list li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.cities_1 h5{
+    margin-top: 10px;
+}
+
+.icon_big_2{
+    color:orangered;
+}
+
+.ref{
+    border-bottom-style: dotted;
+    color: red;
+    opacity: 0.8;
+}
+
+}
+
+}
+@media only screen(max-width: 767px){
+    
+}
+@media only screen(max-width: 480px){
+    
+}
